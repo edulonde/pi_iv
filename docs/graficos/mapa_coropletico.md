@@ -10,11 +10,14 @@ No mapa coroplético, cada área (como estados ou regiões) é colorida proporci
 Essa gradação visual possibilita que os espectadores identifiquem rapidamente regiões com maior e menor concentração de atividades acadêmicas, revelando disparidades regionais. No caso deste projeto, ele destacou a superioridade da região Sudeste, enquanto o Norte apresentou menor concentração de trabalhos.
 
 ## 🛠️ Como interpretar?
-
-    Identificação de padrões regionais: O mapa coroplético facilita a identificação de onde os trabalhos acadêmicos são mais frequentes, auxiliando na percepção de padrões de concentração.
+Identificação de padrões regionais: O mapa coroplético facilita a identificação de onde os trabalhos acadêmicos são mais frequentes, auxiliando na percepção de padrões de concentração.
     Subsídio para políticas: Essas informações ajudam a direcionar esforços e investimentos para regiões com menor produção, incentivando o equilíbrio na produção científica nacional.
 
 !!! example "Exemplo de Mapa Coroplético"
+
+![img.png](img.png)
+
+
 O gráfico acima mostra o mapa coroplético do Brasil, indicando a distribuição de trabalhos acadêmicos entre 2021 e 2023. A concentração de produções está mais alta nas regiões Sudeste e Sul, enquanto as regiões Norte e Nordeste apresentam menor volume de trabalhos.
 
 

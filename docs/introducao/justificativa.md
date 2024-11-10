@@ -1,6 +1,6 @@
 # Justificativa
 
-O presente estudo se justifica pela necessidade crítica de compreender os impactos da pandemia de COVID-19 na produção acadêmica brasileira, especificamente nos programas de pós-graduação stricto sensu entre 2021 e 2023.
+O presente estudo se justifica pela necessidade crítica de compreender a produção acadêmica brasileira, especificamente nos programas de pós-graduação stricto sensu entre 2021 e 2023.
 
 ## Importância do Estudo
 
