@@ -1,0 +1,108 @@
+site_name: PI IV
+site_url: https://edulonde.github.io/pi_iv/
+repo_url: https://github.com/edulonde/pi_iv
+repo_name: edulonde/pi_iv
+
+theme:
+  name: material
+  favicon: images/research_icon.png
+  icon:
+    logo: material/book
+    admonition:
+      info: octicons/info-16
+      success: octicons/check-16
+      warning: octicons/alert-16
+    annotation: material/plus-circle
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    # - header.autohide
+    - navigation.expand
+    - navigation.indexes
+    # - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    #- navigation.tabs.sticky
+    #- navigation.top
+    #- navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    #- toc.integrate
+  language: pt-BR
+  palette:
+    - scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Trocar para modo escuro
+    - scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Trocar para modo claro
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.progressbar
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.critic
+
+nav:
+  - Início: index.md
+  - Introdução:
+    - Justificativa: introducao/justificativa.md
+    - Fundamentação Teórica: introducao/fundamentacao.md
+    - Metodologia: introducao/metodologia.md
+  - Gráficos:
+      - Mapa Coroplético: graficos/mapa_coropletico.md
+      - Grafico de Barras: graficos/grafico_barras.md
+      - Nuvem de Palavras: graficos/nuvem_palavras.md
+  - Resultados:
+    - Resultados: resultados/resultados.md
+    - Conclusão: resultados/conclusao.md
+  - Integrantes:
+    - Integrantes: integrantes/integrantes.md
